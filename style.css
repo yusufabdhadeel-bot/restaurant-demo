@@ -1,11 +1,5 @@
-/* =========================
-   GOOGLE FONT
-========================= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* =========================
-   RESET
-========================= */
 *{
     margin:0;
     padding:0;
@@ -42,9 +36,6 @@ img{
     display:block;
 }
 
-/* =========================
-   CUSTOM SCROLLBAR
-========================= */
 
 ::-webkit-scrollbar{
     width:10px;
@@ -58,10 +49,6 @@ img{
     background:var(--blue);
     border-radius:20px;
 }
-
-/* =========================
-   BACKGROUND EFFECT
-========================= */
 
 body::before{
     content:'';
@@ -87,9 +74,6 @@ body::after{
     z-index:-1;
 }
 
-/* =========================
-   NAVBAR
-========================= */
 
 .navbar{
     position:fixed;
@@ -181,10 +165,6 @@ body::after{
     cursor:pointer;
 }
 
-/* =========================
-   HERO SECTION
-========================= */
-
 .hero{
     min-height:100vh;
 
@@ -236,10 +216,6 @@ body::after{
     gap:20px;
 }
 
-/* =========================
-   BUTTONS
-========================= */
-
 .primary-btn{
     padding:14px 30px;
 
@@ -284,10 +260,6 @@ body::after{
     color:var(--blue);
 }
 
-/* =========================
-   HERO IMAGE
-========================= */
-
 .hero-image{
     position:relative;
 }
@@ -316,10 +288,6 @@ body::after{
     z-index:-1;
 }
 
-/* =========================
-   FLOAT ANIMATION
-========================= */
-
 @keyframes floatImage{
 
     0%{
@@ -335,10 +303,6 @@ body::after{
     }
 
 }
-
-/* =========================
-   HERO FADE IN
-========================= */
 
 @keyframes fadeUp{
 
@@ -361,10 +325,6 @@ body::after{
 .hero-image{
     animation:fadeUp 1.2s ease;
 }
-
-/* =========================
-   STATS SECTION
-========================= */
 
 .stats{
     display:grid;
@@ -411,10 +371,6 @@ body::after{
     color:var(--gray);
 }
 
-/* =========================
-   SECTION TITLES
-========================= */
-
 .section-title{
     text-align:center;
     margin-bottom:60px;
@@ -429,10 +385,6 @@ body::after{
     color:var(--gray);
 }
 
-/* =========================
-   SCROLL REVEAL CLASS
-========================= */
-
 .reveal{
     opacity:0;
     transform:translateY(60px);
@@ -443,9 +395,6 @@ body::after{
     opacity:1;
     transform:translateY(0);
 }
-/* =========================
-   ABOUT SECTION
-========================= */
 
 .about{
     display:grid;
@@ -513,10 +462,6 @@ body::after{
 .feature p{
     margin:0;
 }
-
-/* =========================
-   MENU SECTION
-========================= */
 
 .menu-section{
     background:var(--bg2);
@@ -600,10 +545,6 @@ body::after{
     opacity:1;
 }
 
-/* =========================
-   REVIEWS SECTION
-========================= */
-
 .reviews{
     background:var(--bg);
 }
@@ -645,10 +586,6 @@ body::after{
 .review-card h4{
     color:var(--blue);
 }
-
-/* =========================
-   RESERVATION
-========================= */
 
 .reservation{
     background:var(--bg2);
@@ -737,10 +674,6 @@ body::after{
     0 0 20px var(--blue);
 }
 
-/* =========================
-   CONTACT
-========================= */
-
 .contact{
     background:var(--bg);
 }
@@ -793,10 +726,6 @@ body::after{
     color:var(--gray);
 }
 
-/* =========================
-   FOOTER
-========================= */
-
 footer{
 
     background:#02040c;
@@ -811,10 +740,6 @@ footer{
 footer p{
     color:var(--gray);
 }
-
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
 
 @media(max-width:1200px){
 
@@ -831,8 +756,6 @@ footer p{
 }
 
 }
-
-/* ========================= */
 
 @media(max-width:992px){
 
@@ -871,8 +794,6 @@ footer p{
 
 }
 
-/* ========================= */
-
 @media(max-width:768px){
 
 .hero-content h1{
@@ -908,7 +829,6 @@ section{
 
 }
 
-/* ========================= */
 
 @media(max-width:480px){
 
@@ -935,10 +855,6 @@ section{
 
 }
 
-/* =========================
-   GLOWING ANIMATION
-========================= */
-
 @keyframes glowPulse{
 
     0%{
@@ -962,10 +878,6 @@ section{
     animation:glowPulse 3s infinite;
 }
 
-/* =========================
-   IMAGE HOVER EFFECT
-========================= */
-
 .hero-image img,
 .about-image img{
     cursor:pointer;
@@ -975,10 +887,6 @@ section{
 .about-image img:hover{
     filter:brightness(1.05);
 }
-
-/* =========================
-   GLASS EFFECT
-========================= */
 
 .food-card,
 .review-card,
